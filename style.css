@@ -1,0 +1,170 @@
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.container {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.header {
+	height: 50px;
+	background-color: #dcdcdc;
+	margin-bottom: 10px;
+}
+
+.header img{
+	height: 50px;
+}
+
+.header ul {
+	margin-top: 5px;
+}
+
+.header ul li {
+	float: left;
+	margin-left: 15px;
+}
+
+.header ul li a {
+	font-weight: bold;
+	display: inline-block;
+	padding: 10px 15px;
+	background-color: #dcdcdc;
+	color: ivory;
+	border: 1px dashed #dcdcdc;
+	text-decoration: none;
+}
+
+.header ul li a:hover {
+	background-color: silver;
+	color: ivory;
+}
+
+.header ul li .active {
+	background-color: grey;
+	color: ivory
+}
+
+.right form {
+	margin: 12px 0 0 15px;
+	z-index: 1;
+	width: 200px;
+}
+
+.right form input[type=text]{
+	color: grey;
+	font-weight: bold;
+	right: 0;
+	height: 20px;
+	outline: none;
+	border-top-left-radius: 5px;
+	padding: 1px 25px 0 5px; 
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.right form input[type=submit]{
+	right: 0;
+	width: 25px;
+	height: 25px;
+	background-image:
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.slider_pic {
+	width: 900px;
+}
+
+.left_arrow {
+	z-index: 1;
+	left: 10px;
+	top: 200px;
+	position: absolute;
+	display: inline-block;
+}
+
+.right_arrow {
+	z-index: 1;
+	right: 10px;
+	top: 200px;
+	position: absolute;
+	display: inline-block;
+}
+
+.hov_pic_l {
+	position: absolute;
+	left: 0;
+	top: 195px;
+	display: none;
+	height: 97px;
+	padding-left: 80px;
+}
+
+.slider a:hover .hov_pic_l {
+	display: inline-block;
+	border: 5px solid grey;
+}
+
+.hov_pic_r {
+	position: absolute;
+	right: 0;
+	top: 195px;
+	display: none;
+	height: 97px;
+	padding-right: 80px;
+}
+
+
+
+.slider a:hover .hov_pic_r {
+	display: inline-block;
+	background-color: ivory;
+	border: 5px solid grey;
+}
+
+.content {
+	margin-bottom: 10px;
+}
+
+.slider {
+	margin-bottom: 10px;
+}
+
+.pic_collage li {
+	float: left;
+	border: 5px solid #dcdcdc;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	height: 170px;
+}
+
+.pic_collage li:hover {
+	border: 5px solid silver;
+}
+
+.pic_collage img {
+	width: 280px;
+	height: 170px;
+}
+
+.pic_collage li:last-child {
+	margin-right: 0;
+}
+
